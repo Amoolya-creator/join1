@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <title>PARA JOIN</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <div class="container p-3 bg-info text-white">
+        <h1 class="mx-auto  p-3 shadow bg-warning text-danger text-center text-capitalize w-50">
+            Paragraph maker
+        </h1>
+        <hr>
+        <h4 class="mx-auto p-3 bg-success text-center w-75 border rounded">
+            Please enter sentences in the input fields below:
+        </h4>
+        <hr>
+
+        <div class="row text-center">
+            <div id="one" class="col mx-auto">
+                <span>1.</span>
+                <input type="text" id="1" placeholder="Line 1"></input>
+                <br>
+                <span>2.</span>
+                <input type="text" id="2" placeholder="Line 2"></input>
+                <br>
+                <span>3.</span>
+                <input type="text" id="3" placeholder="Line 3"></input>
+                <br>
+                <span>4.</span>
+                <input type="text" id="4" placeholder="Line 4"></input>
+                <br>
+                <span>5.</span>
+                <input type="text" id="5" placeholder="Line 5"></input>
+                <br>
+                <span>6.</span>
+                <input type="text" id="6" placeholder="Line 6"></input>
+                <br>
+                <br>
+
+                <div id="Para1" class=" mx-auto text-justify w-75 ">
+                </div>
+                <br>
+                <button class="btn btn-primary shadow-lg border rounded-lg" type="button" onclick="showPara()">
+                    Show Para 1
+                </button>
+            </div>
+
+            <div id="two" class="col">
+                <span>1.</span>
+                <input type="text" id="11" placeholder="Line 1"></input>
+                <br>
+                <span>2.</span>
+                <input type="text" id="12" placeholder="Line 2"></input>
+                <br>
+                <span>3.</span>
+                <input type="text" id="13" placeholder="Line 3"></input>
+                <br>
+                <span>4.</span>
+                <input type="text" id="14" placeholder="Line 4"></input>
+                <br>
+                <span>5.</span>
+                <input type="text" id="15" placeholder="Line 5"></input>
+                <br>
+                <span>6.</span>
+                <input type="text" id="16" placeholder="Line 6"></input>
+                <br>
+                <br>
+
+                <div id="Para2" class="mx-auto text-justify w-75">
+                </div>
+                <br>
+                <button class="btn btn-primary shadow-lg border rounded-lg" type="button" onclick="showPara2()">
+                    Show Para 2
+                </button>
+            </div>
+        </div>
+</body>
